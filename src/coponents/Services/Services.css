@@ -1,0 +1,12 @@
+
+.service-container{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.service-cart{
+    margin: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
