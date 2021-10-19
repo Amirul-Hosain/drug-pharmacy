@@ -54,7 +54,7 @@ const Login = () => {
             .finally(() => setIsLoading(false))
     }
     return (
-        <div>
+        <div className='p-5'>
             <div className='d-flex justify-content-center'>
                 <Form onSubmit={registrationWithEmail} className='w-25 mt-5'>
                     <h2>Sign in</h2>

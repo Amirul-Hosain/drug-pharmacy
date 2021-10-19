@@ -1,6 +1,17 @@
+
 .header-detail{
-    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+}
+.header-detail{
+    font-size: 20px;
+    color: gainsboro;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.signin-out{
+    font-size: 20px;
+    color: gainsboro;
+    text-decoration: none;
+    padding: 10px 20px;
 }

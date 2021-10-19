@@ -43,7 +43,7 @@ const Register = () => {
             });
     }
     return (
-        <div>
+        <div className='p-4'>
             <div className='d-flex justify-content-center'>
                 <Form onSubmit={registrationWithEmail} className='w-25 mt-5'>
 

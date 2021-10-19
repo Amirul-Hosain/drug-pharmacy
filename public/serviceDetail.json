@@ -1,0 +1,38 @@
+[
+    {
+        "id": "01",
+        "photo": "https://i.ibb.co/gPYxTsf/First-aid-kit-medicine-cartoon-style-isolated-Doctor-s-first-aid-kit-in-a-cartoon-style-and-isolated.jpg",
+        "name": "First Aid",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    },
+    {
+        "id": "02",
+        "photo": "https://i.ibb.co/L68gnyK/2.jpg",
+        "name": "Capsule",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    },
+    {
+        "id": "03",
+        "photo": "https://i.ibb.co/NN2DQpn/3.jpg",
+        "name": "Plastic Packet",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    },
+    {
+        "id": "04",
+        "photo": "https://i.ibb.co/Pr13LdF/4.jpg",
+        "name": "Unani Medicine",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    },
+    {
+        "id": "05",
+        "photo": "https://i.ibb.co/y5fmKLF/5.jpg",
+        "name": "Homiopathy Medicine",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    },
+    {
+        "id": "06",
+        "photo": "https://i.ibb.co/Htx6SC8/6.jpg",
+        "name": "Cancer Medicine",
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, expedita aliquam. Ipsa sed tempore beatae?"
+    }
+]

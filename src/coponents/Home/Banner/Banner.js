@@ -20,7 +20,7 @@ const Banner = () => {
                         src={banner1}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption style={{ marginTop: '-200px' }}>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>

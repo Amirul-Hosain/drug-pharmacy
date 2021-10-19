@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# All in All Medicine Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Open 24 hours
+* Any kind of medicine is available to us here
+* Medicines are sold by skilled salesmen
+* We do not keep medicine over the date
+* Take good medicine and be healthy
 
 ## Available Scripts
 

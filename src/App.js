@@ -9,7 +9,10 @@ import Login from './coponents/Login/Login';
 import Register from './coponents/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './coponents/PrivateRoute/PrivateRoute';
-import Footer from './context/Footer/Footer';
+import ServiceDetail from './coponents/ServiceDetail/ServiceDetail';
+import Contact from './coponents/Contact/Contact';
+import About from './coponents/About/About';
+import Footer from './coponents/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -24,9 +27,18 @@ function App() {
             <Route exact path='/home'>
               <Home></Home>
             </Route>
-            <PrivateRoute path='/services'>
+            <Route path='/services'>
               <Services></Services>
+            </Route>
+            <PrivateRoute path='/contact'>
+              <Contact></Contact>
             </PrivateRoute>
+            <PrivateRoute path='/servicedetail/:id'>
+              <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
+            <Route path='/about'>
+              <About></About>
+            </Route>
             <Route path='/login'>
               <Login></Login>
             </Route>
