@@ -12,9 +12,6 @@
 }
 .header-detail:hover{
     color: orange;
-    padding: 0px 8px;
-    border:1px solid orange;
-    border-radius: 3px;
 }
 .signin-out{
     margin-right: 50px;

@@ -7,6 +7,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
     const { user, signOutWithGoogle } = useAuth();
+    console.log(user)
     return (
         <div>
             <Navbar bg="dark" expand="lg">
@@ -25,7 +26,7 @@ const Header = () => {
 
                             <div style={{ marginLeft: '200px', display: 'flex' }}>
                                 {
-                                    user.email && <img width='60' height='60'
+                                    user.photoURL && <img width='60' height='60'
                                         style={{ borderRadius: '50%' }}
                                         src={user.photoURL} alt="" />
                                 }

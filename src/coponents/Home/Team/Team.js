@@ -36,7 +36,7 @@ const Team = () => {
                             <img className='member-img' src={member3} alt="" />
                         </div>
                         <div className='member-info'>
-                            <h4>Devid Benham</h4>
+                            <h4>Cherry Shusa</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ducimus.</p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const Team = () => {
                             <img className='member-img' src={member4} alt="" />
                         </div>
                         <div className='member-info'>
-                            <h4>Devid Benham</h4>
+                            <h4>Sanjha Yang</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ducimus.</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Team = () => {
                             <img className='member-img' src={member5} alt="" />
                         </div>
                         <div className='member-info'>
-                            <h4>Devid Benham</h4>
+                            <h4>W. Yoat</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ducimus.</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const Team = () => {
                             <img className='member-img' src={member6} alt="" />
                         </div>
                         <div className='member-info'>
-                            <h4>Devid Benham</h4>
+                            <h4>John Makarthy</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ducimus.</p>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Team = () => {
                             <img className='member-img' src={member2} alt="" />
                         </div>
                         <div className='member-info'>
-                            <h4>Devid Benham</h4>
+                            <h4>Briton M.</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ducimus.</p>
                         </div>
                     </div>

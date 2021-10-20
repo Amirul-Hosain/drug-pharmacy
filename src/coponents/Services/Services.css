@@ -1,20 +1,20 @@
 
 .service-container{
-    /* width: 100%;
+    width: 100%;
     margin-top: 30px;
-    padding-bottom: 20px; */
+    padding-bottom: 20px;
 }
 
 .service-cart{
-    /* margin-left: 4%;
+    margin-left: 4%;
     width: 60%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px; */
+    grid-column-gap: 20px;
 }
 
 
-/* @media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 560px)  {
     .service-cart{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -31,4 +31,4 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-} */
+}

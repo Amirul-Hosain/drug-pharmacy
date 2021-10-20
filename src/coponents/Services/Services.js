@@ -15,17 +15,13 @@ const Services = () => {
         <div className='service-container'>
             <h1 style={{ textAlign: 'center', padding: '20px 0px', color: 'black' }}>Our Services</h1>
 
-            <div className='container service-cart'>
-                <div className="row">
-                    <div className='col-lg-4 col-sm-6 col-12'>
-                        {
-                            services.map(service => <AllServices
-                                key={service.id}
-                                service={service}
-                            ></AllServices>)
-                        }
-                    </div>
-                </div>
+            <div className=' service-cart'>
+                {
+                    services.map(service => <AllServices
+                        key={service.id}
+                        service={service}
+                    ></AllServices>)
+                }
             </div>
         </div>
     );

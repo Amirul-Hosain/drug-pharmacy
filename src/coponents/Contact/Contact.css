@@ -28,11 +28,6 @@
 }
 .get-service input{
     color: whitesmoke;
-    width: 610px;
-    background:none;
-}
-.get-service input{
-    color: whitesmoke;
     margin-top: 10px;
     border: 1.8px solid rgb(226, 225, 225);
     padding: 8px 10px;

@@ -1,6 +1,5 @@
-/* .service-info{
+.service-info{
     margin: 30px auto; 
-    width: 400px;
     opacity: 1;
 }
 .service-info:hover{
@@ -24,4 +23,5 @@
     background-color:rgb(250, 229, 202);
     padding: 3px 8px;
     border-radius: 2px;
-} */
+}
+
