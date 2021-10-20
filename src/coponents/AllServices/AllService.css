@@ -1,17 +1,27 @@
-.service-info{
-    margin: 30px auto;
+/* .service-info{
+    margin: 30px auto; 
     width: 400px;
-    height: 300px;
     opacity: 1;
 }
 .service-info:hover{
+    color: #fff;
     opacity: .8;
     transform: scale(1.05);
     transition: transform .5s, opacity .5s;
 }
-
 .detail-info{
-    color: rgb(59, 58, 58);
-    background-color: rgb(226, 226, 226);
-    padding: 5px 10px 10px 10px;
+    height: 150px;
+    color: #fff;
+    font-family:serif;
+    background-color: rgb(32, 32, 44);
+    padding: 10px 10px 10px 10px;
 }
+
+.detail-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color:rgb(250, 229, 202);
+    padding: 3px 8px;
+    border-radius: 2px;
+} */

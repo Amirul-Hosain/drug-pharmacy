@@ -1,9 +1,44 @@
 import React from 'react';
+import './Contact.css'
 
 const Contact = () => {
     return (
-        <div>
-            <h2>contact with us</h2>
+        <div className='contact-container'>
+            <div className='d-flex'>
+                <div>
+                    <div className='contact-title'>
+                        <h2>Chat With Us</h2>
+                        <p>Drop a message and we will get back to you soon!</p>
+                    </div>
+                    <form>
+                        <div className='d-flex name-email'>
+                            <div className="mb-3 me-2">
+                                <label htmlhtmlFor="exampleInputEmail1" className="form-label"></label>
+                                <input type="text" placeholder="Name" aria-label="Username" />
+                            </div>
+                            <div className="mb-3">
+                                <label htmlFor="exampleInputEmail1" className="form-label"></label>
+                                <input type="text" placeholder="Email" aria-label="Username" />
+                            </div>
+                        </div>
+
+                        <div className="mb-3 w-50 get-service">
+                            <input type="text" placeholder='Which Service Do you Need...' id="exampleInputPassword1" />
+                        </div>
+                        <div className="input-group ">
+                            <textarea className=" message" placeholder='Write your description...' aria-label="With textarea"></textarea>
+                        </div>
+                        <button type="submit" className="btn btn-primary mt-4">Send <i class="far fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+                <div className="address">
+                    <h2>Contact us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Kochukhet 21, Mirpur-10,  Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-phone"></i> Phone: 0123456789</p>
+                    <p><i class="fas fa-envelope"></i> medicine@store.com</p>
+                </div>
+            </div>
         </div>
     );
 };

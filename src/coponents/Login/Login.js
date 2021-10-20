@@ -57,12 +57,14 @@ const Login = () => {
         <div className='p-5'>
             <div className='d-flex justify-content-center'>
                 <Form onSubmit={registrationWithEmail} className='w-25 mt-5'>
-                    <h2>Sign in</h2>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <h2 style={{ marginBottom: '30px', color: 'blue', fontFamily: 'arial' }}>Sign in</h2>
+                    <Form.Group className="mb-3 d-flex" controlId="formBasicEmail">
+                        <i class="fas fa-envelope user-icon"></i>
                         <Form.Control onBlur={handleEmailChange} type="email" placeholder="Enter email" />
                     </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Group className="mb-3 d-flex" controlId="formBasicPassword">
+                        <i class="fas fa-unlock-alt user-icon"></i>
                         <Form.Control onBlur={handlePasswordChange} type="password" placeholder="Password" />
                     </Form.Group>
 
@@ -80,12 +82,12 @@ const Login = () => {
 
                         <div onClick={signIn}
                             style={{
-                                marginRight: '30px', cursor: 'pointer', height: '60px',
+                                marginRight: '10px', cursor: 'pointer', height: '60px',
                                 width: '65px', border: '1px solid gray', borderRadius: '3px',
                                 padding: '3px 4px', marginTop: '-7px'
                             }}>
                             <img width='40' height='30' src={google} alt="" />
-                            <p>Google</p>
+                            <p>Sign in</p>
                         </div>
                     </div>
                 </Form>

@@ -1,22 +1,19 @@
 
-.footer-container{
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    color: whitesmoke;
+.footer{
     background-color: #0A1929;
+    margin-bottom: -20px;
+}
+.footer-container{
+    color: whitesmoke;
 }
 .footer-detail{
-    width: 85%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    width: 100%;
     padding: 40px 0px;
+    margin: auto;
 }
 
-.footer-logo{
-    width: 400px;
-}
 .footer-logo p{
     margin-top: 20px;
     font-size: 18px;
@@ -38,16 +35,10 @@
     margin-right: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    .footer-logo{
-        width: 120px;
-    }
-    .footer-social{
-        margin-left: 15px;
-        width: 120px;
-    }
-    .footer-contact{
-        margin-left: 10px;
-        width: 120px;
-    }
+/* copy right */
+.copy-right{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 15px;
 }

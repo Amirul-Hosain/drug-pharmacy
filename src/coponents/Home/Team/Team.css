@@ -1,17 +1,10 @@
 
-.member-container{
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 20px;
-    margin-left: 5%;
-}
-
 .member-detail{
+    width: 370px;
+    margin-left: 10px;
     color: rgb(68, 67, 67);
     display: flex;
-    width: 400px;
+    margin-top: 15px;
     padding: 10px 5px;
     border: 1px solid gainsboro;
 }
@@ -23,23 +16,4 @@
 }
 .member-info{
     margin-left: 10px;
-}
-
-@media only screen and (max-width: 550px) {
-    .member-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-@media only screen and (max-width: 888px) {
-    .member-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .member-container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
 }

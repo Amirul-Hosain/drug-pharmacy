@@ -19,11 +19,13 @@ const ServiceDetail = () => {
     return (
         <div>
             <div className='detail-container'>
-                <img src={details[0]?.photo} alt="" />
-                <div className='service-info'>
+                <div>
+                    <img src={details[0]?.photo} alt="" />
+                </div>
+                <div className='service-bio'>
                     <h3>{details[0]?.name}</h3>
                     <p>{details[0]?.description}</p>
-                    <Link to='/services'>Back</Link>
+                    <Link className='back-btn' to='/services'><i class="fas fa-angle-left"></i> Back</Link>
                 </div>
             </div>
         </div>
