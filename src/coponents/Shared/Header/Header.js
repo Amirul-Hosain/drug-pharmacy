@@ -10,9 +10,9 @@ const Header = () => {
     console.log(user)
     return (
         <div>
-            <Navbar bg="dark" expand="lg">
+            <Navbar bg="dark" expand="lg" className='navbar-light'>
                 <div className='header-container w-100 ms-5 '>
-                    <div style={{ marginLeft: '50px' }}>
+                    <div>
                         <img width='100' height='60' src={logo} alt="" />
                     </div>
                     <div>

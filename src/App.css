@@ -1,5 +1,2 @@
 
-*{
-  margin: 0;
-  padding: 0;
-}
+#map { position: absolute; top: -110; bottom: 550; height: 400px; width: 100%; }
